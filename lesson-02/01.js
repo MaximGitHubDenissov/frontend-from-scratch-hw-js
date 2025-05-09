@@ -19,6 +19,9 @@ if(isAdmin || isVerifiedUser){
     if (hasSpecialPermission || hasTemporaryPass){
         isAccess = true
     }
+    else{
+        isAccess = false
+    }
 }
 else{
     isAccess = false
