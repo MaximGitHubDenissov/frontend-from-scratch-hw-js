@@ -3,3 +3,15 @@
 
 // your code
 let sum
+let start = 0
+let counter = 1
+while(counter < 21){
+    start += counter
+    counter ++
+}
+
+sum = start
+
+
+
+

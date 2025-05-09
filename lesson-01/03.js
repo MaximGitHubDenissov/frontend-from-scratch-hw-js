@@ -6,3 +6,16 @@
 
 // your code
 let sum
+
+let counter = 1
+let result = 0
+
+while(counter < 21){
+  if(counter%2 === 0){
+    result += counter
+  }
+  counter ++
+
+}
+
+sum = result
