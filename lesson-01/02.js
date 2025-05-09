@@ -10,12 +10,14 @@ let factorial
 
 let counter = 1
 let result = 1
-while(counter < 7){
+while(counter < 11){
   result = result * counter
   counter ++
 }
 
 factorial = result
+console.log(factorial);
+
 
 
 
